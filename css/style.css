@@ -50,6 +50,7 @@ body {
 }
 #clients {
   background-color: #ffffff;
+  /*clien*/
 }
 #clients img {
   border-radius: 50%;
@@ -64,11 +65,14 @@ body {
   padding-bottom: 20px;
   min-height: 200px;
 }
-#clients:nth-child(even) {
+#clients .client:nth-child(even) {
   border-right: none !important;
 }
-#clients:nth-child(n+3) {
+#clients .client:nth-child(n+3) {
   border-bottom: none !important;
+}
+#clients hr {
+  margin-bottom: 20px;
 }
 .client .col-xs-3 {
   padding-right: 0;
@@ -82,6 +86,24 @@ body {
 }
 .client p {
   color: #A6A6A6;
+}
+#myCarousel h2 {
+  margin: 0;
+  color: #666;
+  padding-top: 90px;
+  font-size: 52px;
+  font-family: "trebuchet ms", sans-serif;
+}
+#myCarousel .item {
+  background: #333;
+  text-align: center;
+  height: 300px !important;
+}
+#myCarousel .carousel {
+  margin-top: 20px;
+}
+#myCarousel .bs-example {
+  margin: 20px;
 }
 #information {
   background: url(../img/estate.jpg) no-repeat center center fixed;
