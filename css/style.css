@@ -1,0 +1,108 @@
+/*general styles*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/*padded section*/
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+/*vertical-centered text*/
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/*additional section*/
+#home {
+  background: url(../img/home.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  width: 140px;
+}
+#clients {
+  background-color: #ffffff;
+}
+#clients img {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+}
+#clients .client {
+  border: 1px dashed #E5E5E5;
+  padding: 40px;
+  border-left: none;
+  border-top: none;
+  padding-bottom: 20px;
+  min-height: 200px;
+}
+#clients:nth-child(even) {
+  border-right: none !important;
+}
+#clients:nth-child(n+3) {
+  border-bottom: none !important;
+}
+.client .col-xs-3 {
+  padding-right: 0;
+}
+.client h4 {
+  font-size: 16px;
+  color: #5F5F5F;
+}
+.client h5 span {
+  color: #DF5500;
+}
+.client p {
+  color: #A6A6A6;
+}
+#information {
+  background: url(../img/estate.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+#google_map {
+  height: 500px;
+}
+footer .container-fluid {
+  border-top: solid 1px gray;
+  padding: 20px 0px;
+}
+footer p {
+  margin: 0px 10px;
+}
