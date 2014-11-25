@@ -1,0 +1,6 @@
+#contact {
+  background: url(../img/contact.jpg) no-repeat center center fixed;
+  height: 800px;
+  width: 100%;
+  display: table;
+}
